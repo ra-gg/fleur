@@ -1071,10 +1071,17 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@7.12.5", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4":
+"@babel/runtime@7.12.5":
   version "7.12.5"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   integrity sha512-plcc+hbExy3McchJCEQG3knOsuh3HH+Prx1P6cLIkET/0dLuQDEnrT+s27Axgc9bqfsmNUNHfscgMUdBpC9xfg==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.5", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+  version "7.14.6"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.14.6.tgz#535203bc0892efc7dec60bdc27b2ecf6e409062d"
+  integrity sha512-/PCB2uJ7oM44tz8YhC4Z/6PeOKXp4K588f+5M3clr1M4zbqztlo0XEfJ2LEzj/FgwfgGcIdl8n7YYjTCI0BYwg==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1870,11 +1877,12 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@16.9.53", "@types/react@>=16.9.0", "@types/react@^16.9.4":
-  version "16.14.4"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.4.tgz#365f6a1e117d1eec960ba792c7e1e91ecad38e6f"
-  integrity sha512-ETj7GbkPGjca/A4trkVeGvoIakmLV6ZtX3J8dcmOpzKzWVybbrOxanwaIPG71GZwImoMDY6Fq4wIe34lEqZ0FQ==
+  version "16.14.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.14.11.tgz#992a0cd4b66b9f27315042b5d96e976717368f04"
+  integrity sha512-Don0MtsZZ3fjwTJ2BsoqkyOy7e176KplEAKOpr/4XDdzinlyJBn9yfsKn5mcSgn4kh1B22+3tBnzBC1z63ybtQ==
   dependencies:
     "@types/prop-types" "*"
+    "@types/scheduler" "*"
     csstype "^3.0.2"
 
 "@types/redux@^3.6.0":
@@ -1908,6 +1916,11 @@
   integrity sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==
   dependencies:
     "@types/node" "*"
+
+"@types/scheduler@*":
+  version "0.16.2"
+  resolved "https://registry.yarnpkg.com/@types/scheduler/-/scheduler-0.16.2.tgz#1a62f89525723dde24ba1b01b092bf5df8ad4d39"
+  integrity sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==
 
 "@types/serve-static@*":
   version "1.13.8"
@@ -8717,13 +8730,12 @@ rechoir@^0.7.0:
   dependencies:
     resolve "^1.9.0"
 
-redux@*, redux@4.0.5, redux@^4.0.0:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/redux/-/redux-4.0.5.tgz#4db5de5816e17891de8a80c424232d06f051d93f"
-  integrity sha512-VSz1uMAH24DM6MF72vcojpYPtrTUu3ByVWfPL1nPfVRb5mZVTve5GnNCUV53QM/BZ66xfWrm0CTWoM+Xlz8V1w==
+redux@*, redux@4.1.0, redux@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.1.0.tgz#eb049679f2f523c379f1aff345c8612f294c88d4"
+  integrity sha512-uI2dQN43zqLWCt6B/BMGRMY6db7TTY4qeHHfGeKb3EOhmOKjU3KdWvNLJyqaHRksv/ErdNH7cFZWg9jXtewy4g==
   dependencies:
-    loose-envify "^1.4.0"
-    symbol-observable "^1.2.0"
+    "@babel/runtime" "^7.9.2"
 
 regenerate-unicode-properties@^8.0.2, regenerate-unicode-properties@^8.2.0:
   version "8.2.0"
@@ -9953,10 +9965,6 @@ svgo@^1.0.0:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-symbol-observable@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
