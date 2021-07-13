@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "chalk": "4.1.0",
-    "commander": "7.0.0",
+    "commander": "8.0.0",
     "cpy": "8.1.1",
     "validate-npm-package-name": "3.0.0"
   }
