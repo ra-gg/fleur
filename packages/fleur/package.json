@@ -17,7 +17,7 @@
   },
   "devDependencies": {
     "@types/invariant": "2.2.34",
-    "rollup-plugin-typescript2": "0.29.0",
+    "rollup-plugin-typescript2": "0.30.0",
     "tslib": "2.1.0"
   },
   "dependencies": {
