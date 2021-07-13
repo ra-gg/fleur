@@ -19,7 +19,7 @@
     "fast-deep-equal": "^2.0.1",
     "history": "^4.9.0",
     "invariant": "^2.2.4",
-    "path-to-regexp": "^3.1.0"
+    "path-to-regexp": "^6.2.0"
   },
   "devDependencies": {
     "@testing-library/react-hooks": "^5.0.3",
