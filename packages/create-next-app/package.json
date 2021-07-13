@@ -18,7 +18,7 @@
     "@zeit/ncc": "^0.22.3"
   },
   "dependencies": {
-    "chalk": "4.1.0",
+    "chalk": "4.1.1",
     "commander": "7.0.0",
     "cpy": "8.1.1",
     "validate-npm-package-name": "3.0.0"
