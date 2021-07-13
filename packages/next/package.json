@@ -19,7 +19,7 @@
     "next": "^9.3.2"
   },
   "dependencies": {
-    "superjson": "^1.4.1"
+    "superjson": "^1.7.4"
   },
   "sideEffects": false
 }
